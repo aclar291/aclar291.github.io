@@ -1,0 +1,191 @@
+    .tiny-image {
+        width:200px;
+        border:ridge;
+        border-width:5px;
+        border-color:rosybrown;
+    }
+
+    .border-weight {
+        border:dashed;
+        border-width: 5px;
+        border-color:rosybrown;
+    }
+
+    h1 {
+        font-family: Sancreek;
+        color: #6c2626;
+        text-align: center;
+        padding: 10px;
+        max-width: 800px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+/* fonts from: https://fonts.google.com */
+/* justify content from: https://www.w3schools.com/cssref/css3_pr_justify-content.php as reference*/
+
+    .h1background {
+        background-color: #f5bb6e
+    }
+/* RBG numbers from color wheel in phcode */
+
+    h2 {
+        font-family: Rye;
+        color:#6c2626;
+        padding-left: 10px;
+        padding-right: 10px;
+    }      
+
+    h3 {
+        font-family: Rye;
+        color:#6c2626;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    p{
+        font-family: Solway;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #paragraph1{
+        color:#802121;
+        background-color:antiquewhite;
+        border:dashed;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    #paragraph2{
+        color:#802121;
+        background-color:antiquewhite;
+        border:dashed;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    #paragraph3{
+        color:#802121;
+        background-color:antiquewhite;
+        border:dashed;
+        padding: 5px;
+        margin:10px;
+        text-align-last: center;
+    }
+
+    ul{
+        font-family: Solway;
+        color:darkred;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    ol{
+        font-family: Solway;
+        color:#d16e6e;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .smalllist{
+        font-family: Solway;
+        color:#d16e6e;
+        font-size: 14px;
+    }
+
+    #pageheader {
+        border: 3px solid;
+        border-color:rosybrown
+    }
+
+    nav{
+        width: 40%;
+        font-family:Rye;
+        text-align: center;
+        padding: 10px;
+        max-width: 600px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+/* nav inspiration from: https://stackoverflow.com/questions/36431521/how-to-change-size-of-nav-bar as reference/inspiration */
+
+    nav:hover{
+        background-color: #fdc892;
+    }
+
+    .center { 
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 50%; 
+    }
+
+
+    .pagecolor{
+        background-color:rgba(255, 207, 134, 0.69)
+    }
+
+    table{
+        table-layout: fixed;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        max-width: 800px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+        
+    th{
+        font-family: Rye;
+        color: #6c2626;
+        background-color: blanchedalmond
+    }
+
+    td{
+        font-family: Georgia;
+        color: #b54343;
+        background-color: #fff4e0;
+        text-align-last: center;
+    }
+
+    table, th, td{
+        border: 1px solid;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+
+    footer{
+        font-size: small;
+        text-align: center;
+        font-family: Georgia;
+        bottom: 0%;
+    }
+
+    .left{
+        float: left;
+        padding: 10px;
+    }  
+
+    .right{
+        float: right;
+        padding-right: 10px
+    }
+
+    .centertext{
+        text-align: center;
+        margin: auto;
+        width: 60%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .padlist{
+        padding-left: 10px
+    }
+
+    .padtable{
+        padding-bottom: 5px;
+    }
